@@ -1,0 +1,24 @@
+name: WSMP-SimpleSell
+version: '1.8.0'
+main: com.warriorssmp.simplesell.SimpleSellPlugin
+api-version: '1.21'
+author: WarriorsSMP
+depend: [Vault]
+softdepend: [PlaceholderAPI]
+description: WSMP shop plugin - sell everything, with levels and buy-back.
+
+commands:
+  sell:
+    description: Sell items to the server shop
+    usage: |
+      /sell hand - Sell the item in your hand
+      /sell all - Sell every sellable item in your inventory
+      /sell price - Check the sell price of the item in your hand
+  shop:
+    description: Opens the Warriors SMP shop screen
+    usage: /shop
+
+permissions:
+  simplesell.reload:
+    description: Allows reloading the SimpleSell config
+    default: op
