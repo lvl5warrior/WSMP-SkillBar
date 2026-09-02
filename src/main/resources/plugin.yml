@@ -1,0 +1,11 @@
+name: WSMP-SkillBar
+version: '1.0.0'
+main: com.warriorssmp.skillbar.SkillBarPlugin
+api-version: '1.21'
+author: WarriorsSMP
+softdepend: [WSMP-Mining, WSMP-Woodcutting, WSMP-Farming, WSMP-Fishing, WSMP-Cooking, WSMP-Hunter, PlaceholderAPI]
+
+commands:
+  skills:
+    description: Open a menu showing all your WSMP skill levels
+    aliases: [levels, mylevels, skillbar]
